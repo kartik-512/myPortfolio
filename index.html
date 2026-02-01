@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designer Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Kartik Chandela</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm a Web Designer</h1>
+            <p>I create beautiful and functional websites that bring your ideas to life.</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web designer with over six month of experience in creating stunning digital experiences. I specialize in responsive design, user experience, and modern web technologies.</p>
+                    <p>When I'm not designing, you can find me exploring new design trends, learning about emerging technologies, or enjoying outdoor activities.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/baalHanuman.jpg" alt="Designer Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="project">
+                    <img src="images/calculator.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Simple-Calculator Website</h3>
+                        <p>A simple attractive calculator website.</p>
+                        <a href="calculator/index.html" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/counter.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>People Counting Site</h3>
+                        <p>A clean and elegant people counting website for a hotel.</p>
+                        <a href="countingApp/index.html" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/birthday.png" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Birthday Wishing Site</h3>
+                        <p>An interactive birthday wishing website with animations.</p>
+                        <a href="birthday/index.html" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/googleForm.jpeg" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Google Form Clone</h3>
+                        <p>A responsive and interactive Google Form clone.</p>
+                        <a href="googleForm/index.html" target="_blank" class="btn">View Project</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 55%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Responsive Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Graphic Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Ready to start your next project? Let's talk!</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> kartikgujjar512@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-8410556825</p>
+                        <p><strong>Location:</strong> Modinagar, Uttar pradesh (UP)</p>
+                    </div> 
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Dribbble</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Web Designer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
