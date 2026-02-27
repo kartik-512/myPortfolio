@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -29,22 +31,6 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Animate skill bars on scroll
-const skillBars = document.querySelectorAll('.skill-fill');
-
-function animateSkillBars() {
-    skillBars.forEach(bar => {
-        const barTop = bar.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        if (barTop < windowHeight - 50) {
-            bar.style.width = bar.style.width || '0%';
-        }
-    });
-}
-
-// Trigger animations on scroll
-window.addEventListener('scroll', animateSkillBars);
-window.addEventListener('load', animateSkillBars);
 
 // Form submission (placeholder)
 const contactForm = document.querySelector('.contact-form');
@@ -64,4 +50,6 @@ window.addEventListener('scroll', () => {
     } else {
         header.classList.remove('scrolled');
     }
+});
+
 });
